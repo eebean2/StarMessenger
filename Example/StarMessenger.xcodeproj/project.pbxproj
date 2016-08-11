@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		201B9B2EA11EF0F63858E9D7 /* Pods_StarMessenger_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7389094DE198A83FE34A3704 /* Pods_StarMessenger_Tests.framework */; };
+		2BBA0807161883ACDB41FAEC /* Pods_StarMessenger_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4E1A862FD81ECF593BD6B2 /* Pods_StarMessenger_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		658C156EB04A66D86A01D466 /* Pods_StarMessenger_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF032EE639E7904D0AD0989 /* Pods_StarMessenger_Example.framework */; };
-		663949FAA5CB8A61EC2051FD /* Pods_StarMessenger_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77A5BC0E4045C80F8D4C964 /* Pods_StarMessenger_Tests.framework */; };
+		7334D25F1D2F4CC900E97CF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7334D25E1D2F4CC900E97CF9 /* Main.storyboard */; };
+		737778501D2F4F8E002BDF55 /* cute.png in Resources */ = {isa = PBXBuildFile; fileRef = 7377784F1D2F4F8E002BDF55 /* cute.png */; };
+		73D0A85B1D59A1BB00DB31D3 /* tvid.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 73D0A85A1D598A7200DB31D3 /* tvid.m4v */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,25 +30,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2AAA94B37DC50153604E509B /* Pods-StarMessenger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarMessenger_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarMessenger_Tests/Pods-StarMessenger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3E295B4C626225B5D5AE6F13 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		224AA73777B24BA2BB064BE9 /* Pods-StarMessenger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarMessenger_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarMessenger_Tests/Pods-StarMessenger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		39EE69C99F776CE69AEA8052 /* Pods-StarMessenger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarMessenger_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarMessenger_Example/Pods-StarMessenger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4D38A01685D87E3852E880C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5A4E1A862FD81ECF593BD6B2 /* Pods_StarMessenger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarMessenger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* StarMessenger_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarMessenger_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* StarMessenger_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarMessenger_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6CD51159F75EB4B8A05A0C2C /* Pods-StarMessenger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarMessenger_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarMessenger_Example/Pods-StarMessenger_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7C2F0472C7772436B6268D18 /* Pods-StarMessenger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarMessenger_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarMessenger_Tests/Pods-StarMessenger_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CB9D00F5595C8CFED0A0C51C /* StarMessenger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = StarMessenger.podspec; path = ../StarMessenger.podspec; sourceTree = "<group>"; };
-		E8E061486643AC1DD650F93F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EBF032EE639E7904D0AD0989 /* Pods_StarMessenger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarMessenger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F77A5BC0E4045C80F8D4C964 /* Pods_StarMessenger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarMessenger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7A217EF17EC5005B4535772 /* Pods-StarMessenger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarMessenger_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarMessenger_Example/Pods-StarMessenger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7334D25E1D2F4CC900E97CF9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7377784F1D2F4F8E002BDF55 /* cute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cute.png; sourceTree = "<group>"; };
+		7389094DE198A83FE34A3704 /* Pods_StarMessenger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarMessenger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D0A85A1D598A7200DB31D3 /* tvid.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = tvid.m4v; sourceTree = "<group>"; };
+		AEA9AFA02D61B5A20A2AD741 /* StarMessenger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = StarMessenger.podspec; path = ../StarMessenger.podspec; sourceTree = "<group>"; };
+		C830E183819188061E8460D7 /* Pods-StarMessenger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarMessenger_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarMessenger_Tests/Pods-StarMessenger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CF21DC6FFA04431C8CB5264E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D7E19221DBA11609F1586B5A /* Pods-StarMessenger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarMessenger_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarMessenger_Example/Pods-StarMessenger_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				658C156EB04A66D86A01D466 /* Pods_StarMessenger_Example.framework in Frameworks */,
+				2BBA0807161883ACDB41FAEC /* Pods_StarMessenger_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,18 +66,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				663949FAA5CB8A61EC2051FD /* Pods_StarMessenger_Tests.framework in Frameworks */,
+				201B9B2EA11EF0F63858E9D7 /* Pods_StarMessenger_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		294075BF2FEFBCFACF004EDB /* Frameworks */ = {
+		29326A2ECB4AC3EEA591E542 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EBF032EE639E7904D0AD0989 /* Pods_StarMessenger_Example.framework */,
-				F77A5BC0E4045C80F8D4C964 /* Pods_StarMessenger_Tests.framework */,
+				5A4E1A862FD81ECF593BD6B2 /* Pods_StarMessenger_Example.framework */,
+				7389094DE198A83FE34A3704 /* Pods_StarMessenger_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,8 +89,8 @@
 				607FACD21AFB9204008FA782 /* Example for StarMessenger */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				A8BC8D11EC21AB96A1BEF155 /* Pods */,
-				294075BF2FEFBCFACF004EDB /* Frameworks */,
+				8908AAF5455C7CD5F110A622 /* Pods */,
+				29326A2ECB4AC3EEA591E542 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +108,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				7334D25E1D2F4CC900E97CF9 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -116,7 +120,9 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				73D0A85A1D598A7200DB31D3 /* tvid.m4v */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
+				7377784F1D2F4F8E002BDF55 /* cute.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -141,20 +147,20 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				CB9D00F5595C8CFED0A0C51C /* StarMessenger.podspec */,
-				E8E061486643AC1DD650F93F /* README.md */,
-				3E295B4C626225B5D5AE6F13 /* LICENSE */,
+				AEA9AFA02D61B5A20A2AD741 /* StarMessenger.podspec */,
+				CF21DC6FFA04431C8CB5264E /* README.md */,
+				4D38A01685D87E3852E880C3 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		A8BC8D11EC21AB96A1BEF155 /* Pods */ = {
+		8908AAF5455C7CD5F110A622 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6CD51159F75EB4B8A05A0C2C /* Pods-StarMessenger_Example.debug.xcconfig */,
-				F7A217EF17EC5005B4535772 /* Pods-StarMessenger_Example.release.xcconfig */,
-				2AAA94B37DC50153604E509B /* Pods-StarMessenger_Tests.debug.xcconfig */,
-				7C2F0472C7772436B6268D18 /* Pods-StarMessenger_Tests.release.xcconfig */,
+				D7E19221DBA11609F1586B5A /* Pods-StarMessenger_Example.debug.xcconfig */,
+				39EE69C99F776CE69AEA8052 /* Pods-StarMessenger_Example.release.xcconfig */,
+				224AA73777B24BA2BB064BE9 /* Pods-StarMessenger_Tests.debug.xcconfig */,
+				C830E183819188061E8460D7 /* Pods-StarMessenger_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -166,12 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "StarMessenger_Example" */;
 			buildPhases = (
-				5DD061F401DB690E6143EC76 /* [CP] Check Pods Manifest.lock */,
+				0952E5B66F746FD0B999276C /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				7930BE50E44A2260A04EA68E /* [CP] Embed Pods Frameworks */,
-				D07370E8E86B58C70AE43D2F /* [CP] Copy Pods Resources */,
+				3AF477DEF693D14B77505711 /* [CP] Embed Pods Frameworks */,
+				EFA1BFD985349155FBBFA8B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,12 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "StarMessenger_Tests" */;
 			buildPhases = (
-				257D81FFFBFB8857E12AF1DC /* [CP] Check Pods Manifest.lock */,
+				3911EC9F7B1A5AA4695DDC83 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				EC73F21ACDD347CF46A21857 /* [CP] Embed Pods Frameworks */,
-				AB2CE561E339E6D12CEA638A /* [CP] Copy Pods Resources */,
+				8B737AF0788401C0F95B8AF7 /* [CP] Embed Pods Frameworks */,
+				F8F6C36627E0F034EA9940F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,14 +216,20 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = LBL5W959W4;
+						DevelopmentTeamName = "Erik Bean";
+						LastSwiftMigration = 0800;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = LBL5W959W4;
+						DevelopmentTeamName = "Erik Bean";
+						LastSwiftMigration = 0800;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -246,7 +258,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				73D0A85B1D59A1BB00DB31D3 /* tvid.m4v in Resources */,
+				737778501D2F4F8E002BDF55 /* cute.png in Resources */,
+				7334D25F1D2F4CC900E97CF9 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -262,7 +276,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		257D81FFFBFB8857E12AF1DC /* [CP] Check Pods Manifest.lock */ = {
+		0952E5B66F746FD0B999276C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,10 +288,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		5DD061F401DB690E6143EC76 /* [CP] Check Pods Manifest.lock */ = {
+		3911EC9F7B1A5AA4695DDC83 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,10 +303,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		7930BE50E44A2260A04EA68E /* [CP] Embed Pods Frameworks */ = {
+		3AF477DEF693D14B77505711 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -307,22 +321,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarMessenger_Example/Pods-StarMessenger_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AB2CE561E339E6D12CEA638A /* [CP] Copy Pods Resources */ = {
+		8B737AF0788401C0F95B8AF7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarMessenger_Tests/Pods-StarMessenger_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarMessenger_Tests/Pods-StarMessenger_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D07370E8E86B58C70AE43D2F /* [CP] Copy Pods Resources */ = {
+		EFA1BFD985349155FBBFA8B7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -337,19 +351,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarMessenger_Example/Pods-StarMessenger_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EC73F21ACDD347CF46A21857 /* [CP] Embed Pods Frameworks */ = {
+		F8F6C36627E0F034EA9940F9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarMessenger_Tests/Pods-StarMessenger_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarMessenger_Tests/Pods-StarMessenger_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -383,14 +397,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,8 +421,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -460,8 +468,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -486,33 +496,38 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CD51159F75EB4B8A05A0C2C /* Pods-StarMessenger_Example.debug.xcconfig */;
+			baseConfigurationReference = D7E19221DBA11609F1586B5A /* Pods-StarMessenger_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StarMessenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7A217EF17EC5005B4535772 /* Pods-StarMessenger_Example.release.xcconfig */;
+			baseConfigurationReference = 39EE69C99F776CE69AEA8052 /* Pods-StarMessenger_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StarMessenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AAA94B37DC50153604E509B /* Pods-StarMessenger_Tests.debug.xcconfig */;
+			baseConfigurationReference = 224AA73777B24BA2BB064BE9 /* Pods-StarMessenger_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -526,12 +541,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C2F0472C7772436B6268D18 /* Pods-StarMessenger_Tests.release.xcconfig */;
+			baseConfigurationReference = C830E183819188061E8460D7 /* Pods-StarMessenger_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -541,6 +557,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

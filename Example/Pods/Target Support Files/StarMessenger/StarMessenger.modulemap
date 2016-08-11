@@ -1,0 +1,6 @@
+framework module StarMessenger {
+  umbrella header "StarMessenger-umbrella.h"
+
+  export *
+  module * { export * }
+}

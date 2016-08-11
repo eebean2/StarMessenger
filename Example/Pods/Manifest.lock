@@ -1,0 +1,19 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+  - StarMessenger (0.1.0)
+
+DEPENDENCIES:
+  - FLAnimatedImage
+  - StarMessenger (from `../`)
+
+EXTERNAL SOURCES:
+  StarMessenger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  StarMessenger: 5e58b48a1e60e0d733c684d8be86743d564ad39b
+
+PODFILE CHECKSUM: 6e82e1ec924470ed8baa509981f4867436eef398
+
+COCOAPODS: 1.1.0.beta.1

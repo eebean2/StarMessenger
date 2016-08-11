@@ -1,0 +1,27 @@
+{
+  "name": "StarMessenger",
+  "version": "0.1.0",
+  "summary": "Everything needed for a messaging app in one place.",
+  "description": "Everything needed for a message app in one place. Inlcuding in-app notifications, view controller, message tracking, and more!",
+  "homepage": "https://github.com/eebean2/StarMessenger",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Erik": "owner@yourrepairnow.com"
+  },
+  "source": {
+    "git": "https://github.com/eebean2/StarMessenger.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "StarMessenger/Classes/**/*",
+  "resource_bundles": {
+    "StarMessenger": [
+      "StarMessenger/**/*.{xib,png}"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module Pods_StarMessenger_Example {
+  umbrella header "Pods-StarMessenger_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
